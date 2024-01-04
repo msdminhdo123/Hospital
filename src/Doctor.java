@@ -20,7 +20,7 @@ public class Doctor implements Runnable {
 
                 System.out.println(Thread.currentThread().getName() + " took the equipment at " + time.now());
 
-                Thread.sleep(1000);
+                Patient.Injury();
 
                 System.out.println(Thread.currentThread().getName() + " returned the equipment at " + time.now());
             } catch (Exception e) {
